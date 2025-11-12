@@ -1,0 +1,50 @@
+{
+    "header": {
+        "HOME": "INICIO",
+        "ABOUT ME": "SOBRE MI",
+        "CURRICULUM VITAE": "CURRICULUM VITAE",
+        "PORTFOLIO": "PORTAFOLIO",
+        "SERVICES": "SERVICIOS",
+        "title": "BIENVENIDO",
+        "subtitle": "CREANDO SONRISAS DIGITALES.",
+        "text": "¡Hola! Soy María Jesús Jordan, una desarrolladora web apasionada que transforma ideas en experiencias digitales hermosas y fáciles de usar. Especializada en Figma, HTML y CSS, me encanta construir cosas que sean tanto funcionales como encantadoras.",
+        "btn": "Contáctame"
+    },
+    "about-me": {
+        "title": "CONOCE MÁS",
+        "subtitle": "SOBRE MÍ",
+        "text": "Soy una persona creativa, honesta y organizada que valora la comunicación clara y respetuosa. Disfruto expresar ideas de maneras que conecten con los demás, siempre buscando aportar una actitud positiva y reflexiva en todo lo que hago. Como desarrolladora web, combino mi pasión por el diseño, la codificación y la programación para crear sitios que sean funcionales y visualmente atractivos. Mis habilidades me permiten transformar ideas en soluciones digitales, siempre enfocándome en ofrecer experiencias de calidad.",
+        "btn": "Descargar CV"
+    },
+    "my-skills": {
+        "title": "LO QUE ME FORMA",
+        "subtitle": "EDUCACIÓN Y HABILIDADES",
+        "text": "Mi Trayectoria y Habilidades, Herramientas Que Utilizo, Idiomas, Habilidades Blandas, Pasatiempos, Valores,Instituto Nacional de Aprendizaje,Español-Nativo, Inglés-Intermedio, Trabajo en equipo, Comunicación, Liderazgo, Resolución de problemas, Bailar, Leer, Honestidad , Responsabilidad, Creatividad, Empatía."
+    },
+    "building": {
+        "title": "CÓMO TRABAJO",
+        "subtitle": "MI FORMA DE CREAR",
+        "text": "Descubrimiento y Análisis: Entendiendo tus objetivos, necesidades y visión para el proyecto. , Planificación y Propuesta: Definiendo la estructura del sitio, características clave y cronograma. , Diseño y Prototipo: Creando un diseño atractivo, fácil de usar y que refleje tu marca. , Desarrollo: Transformando el diseño en un sitio web completamente funcional y adaptable. , Pruebas y Revisión: Verificando rendimiento, usabilidad y compatibilidad antes del lanzamiento. , Lanzamiento y Soporte: Publicando tu sitio y brindando orientación y soporte cuando lo necesites."
+    },
+    "projects": {
+        "title": "MIS PROYECTOS",
+        "subtitle": "MUESTRAS DE TRABAJO",
+        "text": "Proyecto Competencia de Ciclismo: Proyecto creado para una competencia de ciclismo realizada en la Zona de los Santos, Costa Rica, durante el 2024. Ver en GitHub. Congreso Nacional del Café: Proyecto grupal desarrollado por el equipo de desarrollo web 2024-2026, para el Congreso del Café. Ver en GitHub. Sitio Web FitForce Gym: Proyecto diseñado y desarrollado para FitForce, enfocado en entrenamiento funcional y estilos de vida saludables.Ver en GitHub."
+
+    },
+    "services": {
+        "title": "MIS SERVICIOS",
+        "subtitle": "CREANDO CON PROPÓSITO, Descubrimiento, Planificación ,Diseño",
+        "text": "Desarrollo Web: Desde el front-end hasta el back-end, construyo sitios funcionales y escalables con un código limpio y eficiente.Diseño Web Personalizado: Creo sitios web modernos, responsivos y fáciles de usar, adaptados a tu marca y objetivos.Optimización de Sitios Web: Aseguro que tu sitio funcione sin problemas mediante mejoras de rendimiento, actualizaciones y soporte continuo. ¿Interesado en dar vida a tu proyecto? Trabajemos juntos para crear un sitio que refleje tu visión y logre resultados reales. Ponte en contacto"
+    },
+    "form": {
+        "title": "EMPIEZA TU PROYECTO HOY",
+        "subtitle": "",
+        "text": "Envíalo ahora."
+    },
+    "footer": {
+        "title": "DISEÑANDO IDEAS, CONSTRUYENDO EXPERIENCIAS",
+        "subtitle": "",
+        "text": "INICIO, SOBRE MÍ, CURRICULUM VITAE, PORTAFOLIO, SERVICIOS"
+    }
+}

@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>María Jesús Jordan — Diseñadora y Desarrolladora Web</title>
+
+    <!-- Meta SEO -->
+    <meta name="description" content="Portafolio de María Jesús Jordan — diseñadora y desarrolladora web en Costa Rica. Diseño UI/UX, HTML, CSS y soluciones web modernas y funcionales.">
+    <meta name="keywords" content="diseñadora web, desarrolladora web, portafolio diseño web, diseño UI/UX, Costa Rica, María Jesús Jordan">
+    <meta name="author" content="María Jesús Jordan">
+
+    <!-- Open Graph (compartir en redes) -->
+    <meta property="og:title" content="María Jesús Jordan — Diseñadora & Desarrolladora Web">
+    <meta property="og:description" content="Portafolio profesional: diseño UI/UX, desarrollo HTML/CSS y sitios web responsivos. Contacta para proyectos creativos y funcionales.">
+    <meta property="og:type" content="website">
+    <!-- Ajusta la URL y la imagen a tus recursos reales -->
+    <!-- <meta property="og:url" content="https://tusitio.com/index-es.html"> -->
+    <!-- <meta property="og:image" content="https://tusitio.com/img/preview-share.png"> -->
+
+    <!-- Hreflang: enlaza versiones de idioma -->
+    <link rel="alternate" hreflang="es" href="index-es.html" />
+    <link rel="alternate" hreflang="en" href="index-en.html" />
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/CSS/style.css">
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://fontawesome.com/">
+    <!-- GOOGLE FONTS -->
+    <link rel="stylesheet" href="https://fonts.google.com/">
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="img/favicon j.png" sizes="16x16">
+    <!-- AOS JS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Pequeño CSS inline para switcher de idioma (puedes mover a style.css) -->
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <!-- Selector de idioma -->
+    <div class="lang-switcher" aria-hidden="false">
+        <a href="index-es.html" aria-label="Español">
+            <img src="img/spain.png" alt="Español">
+        </a>
+        <a href="index-en.html" aria-label="English">
+            <img src="img/great_bratain.png" alt="English">
+        </a>
+    </div>
+
+    <header class="header">
+        <nav class="menu" role="navigation" aria-label="Menú principal">
+            <!-- Menú -->
+            <ul id="menu-items" class="nav-links">
+                <!-- Ícono cerrar -->
+                <div id="closeIcon" class="menu-toggle hidden" aria-hidden="true">
+                    <img src="img/xmark-solid-full.svg" alt="Cerrar menú" />
+                </div>
+                <li><a href="index-es.html" data-section="header" data-value="HOME" class="hover-underline">INICIO</a></li>
+                <li><a href="#about" data-section="header" data-value="ABOUT ME" class="hover-underline">SOBRE MÍ</a></li>
+                <li><a href="./documents/Maria.Jesus.CV.docx.pdf" class="hover-underline"
+                        download="Curriculum_Vitae_Maria_Jesus_Jordan.pdf" data-section="header"
+                        data-value="CURRICULUM VITAE">CURRÍCULUM VITAE</a></li>
+                <li><a href="#my-projects" data-section="header" data-value="PORTFOLIO"
+                        class="hover-underline">PORTAFOLIO</a></li>
+                <li><a href="#my-services" data-section="header" data-value="SERVICES"
+                        class="hover-underline">SERVICIOS</a></li>
+                <div class="languages" aria-hidden="true"></div>
+            </ul>
+
+            <!-- Logo -->
+            <a href="index-es.html" class="no-hover" aria-label="Ir al inicio">
+                <img src="img/logo.byjor.png" alt="Logotipo ByJor" class="logo" />
+            </a>
+
+            <!-- Ícono hamburguesa -->
+            <div class="hamburger menu-toggle" id="hamburger" aria-hidden="false" aria-label="Abrir menú">
+                <img src="img/bars-solid-full.svg" alt="Menú" />
+            </div>
+        </nav>
+
+        <!-- Sección del banner -->
+        <div class="banner-content parallax-section-banner">
+            <div class="welcome-content">
+                <h1 data-section="header" data-value="title">¡BIENVE<span class="blue">NIDO!</span></h1>
+            </div>
+
+            <div class="text">
+                <h2 data-section="header" data-value="subtitle">CREANDO SONRISAS DIGITALES.</h2>
+
+                <p data-section="header" data-value="text">¡Hola! Soy María Jesús Jordan, una desarrolladora y diseñadora web
+                    apasionada que transforma ideas en experiencias digitales hermosas y fáciles de usar. Especializada en
+                    Figma, HTML y CSS, disfruto construir proyectos que sean tanto funcionales como inspiradores.
+                </p>
+
+                <!-- BOTÓN CON ESTRELLAS -->
+                <button>
+                    <a href="https://wa.me/50685122376?text=Hola,%20vi%20tu%20perfil%20y%20quiero%20contactarte"
+                        class="contact" target="_blank" rel="noopener" data-section="header" data-value="btn">Contact
+                        Me</a>
+                    <div class="star-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1"
+                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                            viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <defs></defs>
+                            <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path class="fil0"
+                                    d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="star-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1"
+                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                            viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <defs></defs>
+                            <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path class="fil0"
+                                    d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="star-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1"
+                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                            viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <defs></defs>
+                            <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path class="fil0"
+                                    d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="star-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1"
+                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                            viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <defs></defs>
+                            <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path class="fil0"
+                                    d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="star-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1"
+                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                            viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <defs></defs>
+                            <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path class="fil0"
+                                    d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="star-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1"
+                            style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                            viewBox="0 0 784.11 815.53" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <defs></defs>
+                            <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path class="fil0"
+                                    d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+
+            <!-- Foto principal -->
+            <div class="photo" data-aos="fade-up">
+                <img src="./img/bannernobg.png" alt="Foto banner de María Jesús Jordan">
+            </div>
+
+            <!-- Redes Sociales -->
+            <div class="social" aria-label="Redes sociales">
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"><img src="img/instagram-brands-solid-full.svg"
+                        alt="Instagram de María Jesús"></a>
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener"><img src="img/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://wa.me/numerodetelefono" target="_blank" rel="noopener"><img src="img/whatsapp-brands-solid-full.svg"
+                        alt="WhatsApp"></a>
+            </div>
+
+            <!-- Íconos flotantes -->
+            <div class="icons-floating" aria-hidden="true">
+                <img src="img/ux.vector.svg" alt="Icono UX" class="icon ux">
+                <img src="img/ui.vector.svg" alt="Icono UI" class="icon ui">
+                <img src="img/compu.vector.svg" alt="Icono computadora" class="icon compu">
+                <img src="img/global.vector.svg" alt="Icono globo" class="icon globe">
+                <img src="img/earphones.vector.svg" alt="Icono audífonos" class="icon headset">
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección Sobre mí -->
+    <section id="about" class="about-me py-5 parallax-section-me">
+        <div class="container-lg">
+            <div class="row">
+                <div class="titles-about mt-4">
+                    <div class="title-circle p-4">
+                        <h3 data-aos="fade-up">CONÓCEME</h3>
+                    </div>
+                    <div data-aos="fade-up">
+                        <h2>SOBRE MÍ</h2>
+                    </div>
+                </div>
+
+                <!-- CONTENIDO: INFORMACIÓN Y VIDEO -->
+                <div class="container-video d-flex justify-content-between" data-aos="fade-up">
+                    <!-- Columna izquierda: Video -->
+                    <div class="col-lg-5 bg-video">
+                        <!-- Aquí va el video -->
+                        <div class="video" aria-hidden="true"></div>
+                    </div>
+
+                    <!-- Columna derecha: Texto -->
+                    <div class="col-lg-5 info-container p-4" data-aos="fade-up">
+                        <h3 class="mt-3 mb-3">Desarrolladora Web</h3>
+                        <p>
+                            Soy una persona creativa, honesta y organizada que valora la comunicación clara y respetuosa.
+                            Me gusta expresar ideas de forma que conecten con las personas, aportando siempre un enfoque
+                            positivo y pensado.
+                        </p>
+                        <p>
+                            Como desarrolladora web, combino mi pasión por el diseño y la programación para crear sitios
+                            que sean funcionales y visualmente atractivos. Mis habilidades me permiten transformar ideas
+                            en soluciones digitales con enfoque en la calidad.
+                        </p>
+                        <a href="./documents/Maria.Jesus.CV.docx.pdf"
+                            download="Curriculum_Vitae_Maria_Jesus_Jordan.pdf">
+                            <button id="cv" class="cv" aria-label="Descargar CV">
+                                Descargar CV
+                                <div class="star-1"> ... </div>
+                                <div class="star-2"> ... </div>
+                                <div class="star-3"> ... </div>
+                                <div class="star-4"> ... </div>
+                                <div class="star-5"> ... </div>
+                                <div class="star-6"> ... </div>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección What Shapes Me / Formación -->
+    <section id="shapes-me" class="shapes-me" data-aos="fade-up">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="skill-title p-4 d-flex justify-content-evenly align-items-center">
+                    <h3 data-aos="fade-up">EDUCACIÓN</h3>
+                    <h2 data-aos="fade-up">¡MI MARCO MENTAL!</h2>
+                </div>
+
+                <!-- HABILIDADES TÉCNICAS -->
+                <div class="container skills-info">
+                    <div class="col-6 left-col">
+                        <div class="container-fluid my-journey">
+                            <h3>MI TRAYECTORIA & HABILIDADES</h3>
+                            <div class="hover-circle">
+                                <span>Instituto Nacional de Aprendizaje</span>
+                                <div class="circle"></div>
+                            </div>
+                        </div>
+
+                        <!-- HERRAMIENTAS -->
+                        <div class="container-fluid tools">
+                            <div class="my-journey">
+                                <h3>HERRAMIENTAS CON LAS QUE TRABAJO</h3>
+                            </div>
+
+                            <div class="my-tools">
+                                <img src="img/photoshop.png" alt="Photoshop">
+                                <img src="img/illustrator.png" alt="Illustrator">
+                                <img src="img/wordpress.png" alt="WordPress">
+                                <img src="img/bootstrap.png" alt="Bootstrap">
+                            </div>
+
+                            <div class="my-tools">
+                                <img src="img/figma.png" alt="Figma">
+                                <img src="img/html.png" alt="HTML">
+                                <img src="img/css.png" alt="CSS">
+                                <img src="img/database.png" alt="Base de datos">
+                            </div>
+                        </div>
+
+                        <!-- IDIOMAS -->
+                        <div class="language">
+                            <h3>IDIOMAS</h3>
+                            <div class="d-flex my-language">
+                                <div class="spanish hover-circle">Español - Nativo</div>
+                                <div class="english hover-circle">Inglés - Intermedio</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- HABILIDADES BLANDAS -->
+                    <div class="col-6 right-col">
+                        <div class="container-fluid soft-skills">
+                            <h3>HABILIDADES BLANDAS</h3>
+                            <div class="d-flex group-1">
+                                <p class="skill-1 dark-orange"><img src="/img/team.png" alt="Trabajo en equipo">Trabajo en equipo</p>
+                                <p class="skill-2 dark-orange"><img src="/img/communication.png" alt="Comunicación">Comunicación</p>
+                            </div>
+                            <div class="d-flex group-2">
+                                <p class="skill-3 dark-orange"><img src="/img/leadership.png" alt="Liderazgo">Liderazgo</p>
+                                <p class="skill-4 dark-orange"><img src="/img/problem-solving.png" alt="Proactividad">Proactividad</p>
+                            </div>
+                        </div>
+
+                        <!-- HOBBIES -->
+                        <div class="container-fluid hobbies">
+                            <h3>HOBBIES</h3>
+                            <div class="d-flex group-3">
+                                <p class="dance dark-orange skill-1"><img src="/img/party-people.png" alt="Bailar">Bailar</p>
+                                <p class="read dark-orange skill-2"><img src="/img/open-book.png" alt="Leer">Leer</p>
+                            </div>
+                        </div>
+
+                        <!-- VALORES -->
+                        <div class="container-fluid values">
+                            <h3>VALORES</h3>
+                            <div class="d-flex group-4">
+                                <p class="skill-1 dark-orange"><img src="/img/honesty.png" alt="Honestidad">Honestidad</p>
+                                <p class="skill-2 dark-orange"><img src="/img/responsability.png" alt="Responsabilidad">Responsabilidad</p>
+                            </div>
+                            <div class="d-flex group-5">
+                                <p class="skill-3 dark-orange"><img src="/img/creativity.png" alt="Creatividad">Creatividad</p>
+                                <p class="skill-4 dark-orange"><img src="/img/empathy.png" alt="Empatía">Empatía</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: CÓMO TRABAJO -->
+    <section id="my-work" class="my-work parallax-section-work">
+        <div class="container-fluid">
+            <div class="title-work p-4 d-flex justify-content-around align-items-center">
+                <h3 data-aos="fade-up">LA FORMA EN QUE CREO</h3>
+                <h2 data-aos="fade-up">¡CÓMO TRABAJO!</h2>
+            </div>
+
+            <!-- CONTENEDOR PARA AMBAS COLUMNAS -->
+            <div class="container-column d-flex" data-aos="fade-up">
+                <div class="col-6">
+                    <div class="columns">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <h4>DESCUBRIMIENTO & ANÁLISIS</h4>
+                            <p>Comprender tus objetivos, necesidades y visión del proyecto.</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <h4>PLANIFICACIÓN & PROPUESTA</h4>
+                            <p>Definir la estructura del sitio, las características clave y el cronograma.</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <h4>DISEÑO & PROTOTIPO</h4>
+                            <p>Crear un diseño atractivo y fácil de usar que refleje tu marca.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="container columns">
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <h4>DESARROLLO</h4>
+                            <p>Convertir el diseño en un sitio web totalmente funcional y responsivo.</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">5</div>
+                            <h4>PRUEBAS & REVISIÓN</h4>
+                            <p>Verificar rendimiento, usabilidad y compatibilidad antes del lanzamiento.</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">6</div>
+                            <h4>LANZAMIENTO & SOPORTE</h4>
+                            <p>Publicar tu sitio y ofrecer guía y soporte cuando lo necesites.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="my-projects" class="my-projects">
+        <div class="title-project">
+            <h3>MUESTRAS DE TRABAJO</h3>
+            <h2>PROYECTOS</h2>
+        </div>
+
+        <div class="cards-container">
+            <!-- CARD 1 -->
+            <div class="card-item">
+                <div class="card shadow-sm h-100">
+                    <img src="./img/banner.ciclismo.png" class="card-img-top"
+                        alt="Banner competencia de ciclismo mostrando ciclistas en una carrera">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Competencia de Ciclismo</h5>
+                        <p class="card-text flex-grow-1">
+                            Proyecto creado para una competencia de ciclismo en la Zona de los Santos, Costa Rica, durante 2024.
+                        </p>
+                        <a href="#" class="btn-pink mt-auto">Ver en GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="card-item">
+                <div class="card shadow-sm h-100">
+                    <img src="./img/banner.congreso.png" class="card-img-top"
+                        alt="Banner de un congreso de café en Costa Rica mostrando a una persona recogiendo café">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Congreso Nacional del Café</h5>
+                        <p class="card-text flex-grow-1">
+                            Proyecto en grupo desarrollado por el equipo de desarrollo web 2024–2026, para el Congreso Nacional del Café.
+                        </p>
+                        <a href="#" class="btn-pink mt-auto">Ver en GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="card-item">
+                <div class="card shadow-sm h-100">
+                    <img src="./img/banner.fitforce.png" class="card-img-top"
+                        alt="Banner del gimnasio FitForce mostrando personas entrenando">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Sitio FitForce Gym</h5>
+                        <p class="card-text flex-grow-1">
+                            Proyecto diseñado y desarrollado para FitForce, enfocado en entrenamiento funcional y estilos de vida saludables.
+                        </p>
+                        <a href="#" class="btn-pink mt-auto">Ver en GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS (ACORDEÓN) -->
+    <section class="my-services-section" id="my-services">
+        <div class="services-header d-flex justify-content-around mb-5" data-aos="fade-up">
+            <h3>CREANDO CON PROPÓSITO</h3>
+            <h2>SERVICIOS</h2>
+        </div>
+        <div class="services-content d-flex justify-content-around">
+            <!-- Títulos a la izquierda -->
+            <div class="services-titles">
+                <h3>DESCUBRIMIENTO</h3>
+                <h3>PLANIFICACIÓN</h3>
+                <h3>DISEÑO</h3>
+            </div>
+
+            <!-- Acordeón -->
+            <div class="accordion-container">
+                <div class="accordion-card card-1">
+                    <div class="card-content">
+                        <h5>Desarrollo Web</h5>
+                        <p>Creo sitios modernos, responsivos y fáciles de usar, a medida de tu marca y objetivos.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-card card-2">
+                    <div class="card-content">
+                        <h5>Diseño Web Personalizado</h5>
+                        <p>Diseño sitios con un fuerte enfoque en usabilidad, creatividad y estética.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-card card-3">
+                    <div class="card-content">
+                        <h5>Optimización de Sitios</h5>
+                        <p>Mejoro rendimiento, SEO y experiencia de usuario para obtener mejores resultados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services-info">
+            <p>¿Interesado en llevar tu proyecto a la realidad? Trabajemos juntos para crear un sitio que refleje tu visión y consiga resultados reales.</p>
+            <a href="https://wa.me/50685122376?text=Hola,%20vi%20tu%20perfil%20y%20quiero%20contactarte" target="_blank" rel="noopener">
+                <button class="contact-btn">Contactar</button>
+            </a>
+        </div>
+    </section>
+
+    <!-- FORMULARIO -->
+    <section class="form-section">
+        <div class="form-content-wrapper">
+            <!-- IMAGEN (izquierda) -->
+            <div class="image-col">
+                <img src="img/me.form.png" alt="Mujer señalando">
+            </div>
+
+            <!-- FORMULARIO (derecha) -->
+            <div class="main-col">
+                <h2 class="form-title">INICIA TU <br> PROYECTO HOY</h2>
+
+                <form class="simple-form" action="/public/contact_submit.php" method="post">
+                    <input type="text" name="name" placeholder="Tu nombre" required>
+                    <input type="email" name="email" placeholder="Tu correo" required>
+                    <textarea name="message" placeholder="Tu mensaje" required></textarea>
+                    <button type="submit" class="btn">Enviar ahora</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="logo">
+            <img src="/img/byjor2.logo.png" alt="Logotipo ByJor">
+            <p>Diseñando ideas, construyendo experiencias</p>
+        </div>
+        <nav class="nav-footer" aria-label="Footer navigation">
+            <ul class="footer-items text-center">
+                <li><a href="index-en.html">HOME</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="./documents/Maria.Jesus.CV.docx.pdf" download="Curriculum_Vitae_Maria_Jesus_Jordan.pdf">CURRICULUM VITAE</a></li>
+                <li><a href="#my-projects">PORTFOLIO</a></li>
+                <li><a href="#my-services">SERVICES</a></li>
+            </ul>
+        </nav>
+        <div class="social-footer">
+            <div class="social-img ">
+                <img src="img/instagram-brands-solid-full.svg" alt="Instagram">
+                <img src="img/linkedin-brands-solid-full.svg" alt="LinkedIn">
+                <img src="img/whatsapp-brands-solid-full.svg" alt="WhatsApp">
+            </div>
+            <div class="language-selector">
+                <a href="index-es.html" class="flag-link">
+                    <img src="img/spain.png" alt="Español" class="flag-icon">
+                </a>
+                <a href="index-en.html" class="flag-link">
+                    <img src="img/great_bratain.png" alt="English" class="flag-icon active">
+                </a>
+            </div>
+        </div>
+        <div class="footer-credits">
+            <p>Diseño y desarrollo por María Jesús Jordan Granados. © 2025.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="script.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+
+</body>
+
+</html>

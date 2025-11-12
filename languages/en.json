@@ -1,0 +1,50 @@
+{
+    "header": {
+        "HOME": "HOME",
+        "ABOUT ME": "ABOUT ME",
+        "CURRICULUM VITAE": "CURRICULUM VITAE",
+        "PORTFOLIO": "PORTFOLIO",
+        "SERVICES": "SERVICES",
+        "title": "WELCOME!",
+        "subtitle": "CRAFTING DIGITAL SMILES.",
+        "text": "Hello! I'm María Jesús Jordan, a passionate web developer who turns ideas into beautiful, user-friendly digital experiences. Specializing in Figma, HTML and CSS, I love building things that are both functional and delightful.",
+        "btn": "Contact Me"
+    },
+    "about-me": {
+        "title": "ABOUT ME",
+        "subtitle": "LET'S KNOW",
+        "subtitle2":"Web Developer",
+        "text": "I'm a creative, honest, and organized person who values clear and respectful communication. I enjoy expressing ideas in ways that connect with others, always seeking to bring a positive and thoughtful approach to everything I do. As a web developer, I bring together my passion for design, coding, and programming to create websites that are both functional and visually appealing. My skills allow me to transform ideas into digital solutions, always focusing on delivering quality experiences.",
+        "btn": "Donwload CV"
+    },
+    "my-skills": {
+        "title": "WHAT SHAPES ME",
+        "subtitle": "EDUCATION & SKILLS",
+        "text": "My Journey & Skills, Tools I Work With, Language, Soft Skills, Hobbies, Values, Instituto Nacional Aprendizaje, Spanish-Native, English-Intemediate,Team Work, Communication, LeaderShip, Problem Solving, Dancing, Reading, Honesty, Responsability, Creativity,Empathy"
+    },
+    "building": {
+        "title": "HOW I WORK",
+        "subtitle": "THE WAY I BUILD",
+        "text": "Discovery & Analysis: Understanding your goals, needs, and vision for the project. Planning & Proposal: Defining the site structure, key features, and timeline. Design & Prototype: Creating an attractive, user-friendly design that reflects your brand. Development: Turning the design into a fully functional, responsive website. Testing & Review: Checking performance, usability, and compatibility before launch. Launch & Support: Publishing your site and providing guidance and support when needed."
+    },
+    "projects": {
+        "title": "MY PROJECT",
+        "subtitle": "WORK SAMPLES",
+        "text": "1. Cycling Competition Project: Project created for a cycling competition held in the Zona de los Santos, Costa Rica, during 2024. View on GitHub.National Coffee Congress: Group project developed by the 2024-2026 web development team, for Coffee Congress. View on GitHub. FitForce Gym Website: Project designed and developed for FitForce, focused on functional training and healthy lifestyles. View on GitHub."
+    },
+    "services": {
+        "title": "MY SERVICES",
+        "subtitle": "CREATING WITH PORPUSE, DISCOVERY, PLANNING, DESING",
+        "text": "Web Development: From front-end to back-end, I build functional and scalable websites using clean and efficient code. Custom Web Design: I create modern, responsive, and user-friendly websites tailored to your brand and goals. Website Optimization: I ensure your website runs smoothly with performance improvements, updates, and ongoing support. Interested in bringing your project to life? Let's work together to create a website that reflects your vision and achieves real results. Get In Touch"
+    },
+    "form": {
+        "title": "START YOUR PROJECT TODAY",
+        "subtitle": "",
+        "text": "Send It Now."
+    },
+    "footer": {
+        "title": "DESING IDEAS, BUILDING EXPERIENCES",
+        "subtitle": "",
+        "text": "HOME, ABOUT, CURRICULUM VITAE, PORTFOLIO, SERVICES"
+    }
+}
